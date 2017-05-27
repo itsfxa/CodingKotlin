@@ -1,5 +1,12 @@
 package me.deceptions.codingkotlin
 
+/*
+    This is why Kotlin was added to Android by Google.
+    because it's so hot.
+    Go learn Kotlin :3
+    https://kotlinlang.org/docs/
+ */
+
 // Declaring vals
 val name = "Corey"
 val age = 16
@@ -13,14 +20,16 @@ fun main(args: Array<String>) {
 
 fun introduce() {
     println("Hi, my name is $name.")
-    println("I am $age years old.\n")
+    println("I am $age years old.")
+    println()
 }
 
 fun hobbies() {
     println("My hobbies are: ")
     println("Programming $favouritelang")
     println("Making stuff")
-    println("using git commit -am\n")
+    println("using git commit -am")
+    println()
 }
 
 fun contact() {
