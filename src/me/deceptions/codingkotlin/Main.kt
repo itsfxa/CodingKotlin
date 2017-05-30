@@ -1,5 +1,7 @@
 package me.deceptions.codingkotlin
 
+import java.util.*
+
 /*
     This is why Kotlin was added to Android by Google.
     because it's so hot.
@@ -16,6 +18,7 @@ fun main(args: Array<String>) {
     introduce() // introduce myself
     hobbies() // tell my hobbies
     contact() // show contact things
+    day() // Tell the day
 }
 
 fun introduce() {
@@ -37,3 +40,36 @@ fun contact() {
     println("My spigot is: FXA")
     println("My discord is FXA#5868")
 }
+
+// Start of random code.
+
+// Use of when method.
+fun day() {
+    val cal: Calendar = Calendar.getInstance()
+    val day = cal.get(Calendar.DAY_OF_WEEK)
+    when (day) {
+        Calendar.SUNDAY -> {
+            println("It is Sunday!")
+        }
+        Calendar.MONDAY -> {
+            println("It is Monday!")
+        }
+        Calendar.TUESDAY -> {
+            println("It is Tuesday!")
+        }
+        Calendar.WEDNESDAY -> {
+            println("It is Wednesday!")
+        }
+        Calendar.THURSDAY -> {
+            println("It is Thursday!")
+        }
+        Calendar.FRIDAY -> {
+            println("It is Friday!")
+        }
+        Calendar.SATURDAY -> {
+            println("It is Saturday!")
+        }
+    }
+}
+
+// Use of <x> method. TODO
